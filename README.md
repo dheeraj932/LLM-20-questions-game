@@ -31,10 +31,7 @@ The gamebot leverages the **Meta-Llama-3.1-8B-Instruct** model, a state-of-the-a
     ```
 
 2. **Install dependencies:**
-    Make sure you have Python 3.7+ installed, then install the required libraries:
-    ```bash
-    pip install -r requirements.txt
-    ```
+    Make sure you have Python 3.7+ installed, then install the required libraries
 
 3. **Download the Meta-Llama-3.1-8B-Instruct model:**
     The model can be accessed from the Hugging Face model repository.
@@ -48,9 +45,6 @@ The gamebot leverages the **Meta-Llama-3.1-8B-Instruct** model, a state-of-the-a
 
 1. **Start the game:**
     The gamebot will interact with the user in a loop for up to 20 rounds, asking questions and making guesses.
-    ```bash
-    python play_game.py
-    ```
 
 2. **Input:**
     The user must think of a word (person, place, or thing) and respond with yes/no to the gamebot's questions.
